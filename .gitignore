@@ -1,0 +1,49 @@
+# =============================================================
+# DATOS — no van al repositorio. Los scripts los descargan solos,
+# salvo los de Quaia, que se bajan de Zenodo (ver README).
+# =============================================================
+*.npz
+*.ecsv
+*.fits
+*.fit
+*.fits.gz
+catwise_*.csv
+
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# =============================================================
+# Sistema
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# Editores
+# =============================================================
+.vscode/
+.idea/
+*.swp
+*~
+
+# =============================================================
+# Figuras regeneradas por los scripts.
+# Si quieres publicar las del informe, sacalas del ignore con:
+#   git add -f figuras/nombre.png
+# =============================================================
+*.png
+!figuras/*.png
