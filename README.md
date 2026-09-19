@@ -1,5 +1,7 @@
 # Dipolo cósmico en CatWISE2020 y Quaia
 
+[![DOI](https://zenodo.org/badge/1377393304.svg)](https://doi.org/10.5281/zenodo.22848146)
+
 Medición independiente del dipolo en la distribución angular de cuásares, con
 presupuesto de error completo. **Es un estudio de replicación**: los resultados
 reproducen mediciones ya publicadas y no constituyen evidencia nueva para el campo.
